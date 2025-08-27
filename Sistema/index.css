@@ -1,0 +1,221 @@
+body {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+ /*parte de cima */
+ul {
+    
+    background-color:  black;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Botão amarelo com efeito */
+.cta-button {
+    display: inline-block;
+    background: #f4fe08;
+    color: #000;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+/* Alteração de cor do botão */
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background: #000;
+    color:#f4fe08;
+    box-shadow: 0 0 15px #f4fe08;
+}
+/* DEfine o tam da logo */
+nav img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #f4fe08;
+}
+
+/* Beleza */
+nav a {
+    font-size: 20px;
+    border: #f4fe08 5px;
+}
+
+/* Muda de branco para yellow */
+nav a:hover {
+    color: #f4fe08;
+}
+
+/* Barrinha amarela */
+nav a:hover {
+    color: #f4fe08;
+    border-bottom: 2px solid #f4fe08;
+}
+
+
+h1 {
+    color: #f4fe08;
+}
+
+
+/* Define o tamanho das img do rodapé */
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Alinha ao centro */
+footer {
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Beleza */
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+/* Cria um container q reduz o tamanho */
+.container {
+    padding: 0px 50px;
+}
+
+/* Botão central */
+section {
+    padding-top:0px;
+    max-width: 12000px;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+.hero {
+    height: 100vh;
+    background: url() no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ffcc00;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.btn {
+    background-color: #ffcc00;
+    color: #0d1b2a;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Caixa amarela entorno dos personagens */
+.perso {
+    background-color: #1a1a1a;
+    border: 2px solid #f4fe08;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    width:1100px;
+
+}
+
+/* Faz uma box nas noticias */
+.promotion-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-right: 30px;
+    flex-wrap: wrap;
+}
+
+.promotion-card {
+    background-color: #1a1a1a;
+    border: 2px solid #f4fe08;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 30px;
+    width: 45%;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.promotion-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(244, 254, 0, 0.4);
+}
+
+.promotion-section1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 630px;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+.promotion-card1 {
+    margin-top: 0px;
+    background-color: #1a1a1a;
+    border: 2px solid #f4fe08;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 630px;
+    width: 45%;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.promotion-card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(244, 254, 0, 0.4);
+}
+
+
+
+
+
