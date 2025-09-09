@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head bgcolor="black">
+
+<head style="position: fixed;">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PERSONAGENS DA QUEDA DE YCARU</title>
+    <title>A QUEDA DE YCARU</title>
     <link rel="stylesheet" href="index.css">
      <div class="container" >
-         <nav>
+        <nav>
             <ul>
                  <li>
-                    <img src="img/logo.png" width="25" height="25">
+                    <img src="img/logo.png">
                 </li>
                 <li>
                     <a href="index.php">O JOGO</a>
@@ -31,19 +32,28 @@
                     <a href="baixar.html"class='cta-button'>BAIXAR</a>
                 
                 </li>
+            
                 <li>
-                    <a href="index_login.php" class="prf-txt">
+                    <a href="index_login.html" class="prf-txt">
                         <img src="img/profile.png" class="prf-img" style="border: none; text-transform: none; height: 60px; width: 60px; ">
                     </a>
                 </li>
             </ul>
         </nav>
-    
-</head>
-<body bgcolor="black">
-    <h1>Story Board</h1>
 
-    <footer>
+</head>
+
+<body>
+    <section class="hero">
+        <h1>A Queda de Ycaru</h1>
+        <p>Uma aventura épica aguarda você!</p>
+        <a href="baixar.html" class="btn">Jogue Agora</a>
+    </section>
+
+    
+
+
+        <footer>
             <a href="https://github.com/ycaruqueda-svg" target="_blank" rel="noopener noreferrer">
                 <img src="./img/github.svg"></img>
                 <p>Github</p>
@@ -58,5 +68,7 @@
                     <p>&copy; 2025 Queda de Ycaru. Todos os direitos reservados.</p>
                 </div>
         </center>
+
 </body>
+
 </html>
